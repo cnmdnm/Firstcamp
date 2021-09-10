@@ -21,10 +21,3 @@ package thread;
           public static void sleep(long millis) throws InterruptedException{
           Runnable.run();
         }
-        //static int tickets=100;
-  	public class SellTicket implements Runnable{
-  	static int tickets =100;
-  	public void run() {
-   	//
-       while(true) {
-       if(tickets>0) {
